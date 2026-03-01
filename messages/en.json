@@ -1,0 +1,129 @@
+{
+  "Index": {
+    "title": "Rex Leonardo",
+    "hero": {
+      "greeting": "Hi, I'm",
+      "role": "Rex",
+      "suffix": ".",
+      "description": "I specialize in building responsive, high-performing web applications.",
+      "viewWork": "View Work"
+    },
+    "nav": {
+      "name": "Rex Leonardo",
+      "about": "About",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects"
+    },
+    "about": {
+      "title": "About",
+      "description": "I am a Developer with proven experience building scalable, responsive web applications. I specialize in translating complex designs into pixel-perfect, accessible user interfaces. With a strong foundation in modern styling and API integration, I bridge the gap between design and robust front-end architecture. Thriving in collaborative Agile environments, I actively engage with cross-functional teams and manage deployments.",
+      "languages": {
+        "title": "Language Proficiency",
+        "english": "English: Business level",
+        "japanese": "Japanese: JLPT N3 level",
+        "filipino": "Filipino: Native"
+      }
+    },
+    "experience": {
+      "title": "Experience"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "aboutModals": {
+      "buttons": {
+        "certifications": "Certifications",
+        "academic": "Academic Organizations",
+        "education": "Education"
+      },
+      "certifications": {
+        "title": "Certifications",
+        "items": [
+          {
+            "name": "JLPT N3",
+            "date": "Dec 2024"
+          },
+          {
+            "name": "Zuitt Coding Bootcamp",
+            "date": "2021"
+          }
+        ]
+      },
+      "academic": {
+        "title": "Academic Organizations",
+        "orgs": [
+          {
+            "name": "Institute of Computer Engineers of the Philippines Student Edition - Region 1 (ICpEP.SE-R1)",
+            "role": "President • Aug 2019 - Aug 2020",
+            "description": "Assisted in organizing events with the ICpEP-R1 Board of Directors (2018-2019):",
+            "bullets": [
+              "ICpEP-R1 4th Regional Convention",
+              "General Assembly",
+              "2nd Computer Engineering Student Colloquium",
+              "3rd Regional CpE Challenge"
+            ]
+          },
+          {
+            "name": "Institute of Computer Engineers of the Philippines Student Edition - PHINMA University of Pangasinan (ICpEP.SE-PHINMA UPang)",
+            "role": "President • Jun 2019 - Mar 2020",
+            "description": "",
+            "bullets": [
+              "Acted as the chief executive of the ICpEP.SE",
+              "Represented the members according to their interest, in all the policies in the University",
+              "Presided over all meetings of ICpEP.SE",
+              "Signed all documents and communications of the ICpEP.SE and approve vouchers representing legitimate disbursement of the ICpEP.SE fund",
+              "Rendered a per semester report to the members on the performance of the ICpEP.SE",
+              "Exercised such powers necessary or incidental to the performance of his/her function"
+            ]
+          },
+          {
+            "name": "University of Pangasinan Association of Computer Engineering Students (UPACES)",
+            "role": "Business Manager • Jun 2018 - Mar 2019",
+            "description": "",
+            "bullets": [
+              "Responsible for establishing the means for the income to flow for the UPACES",
+              "Responsible for promoting income-generating projects for the organization",
+              "Exercised such other functions as may be delegated to them by the UPACES President"
+            ]
+          }
+        ]
+      },
+      "education": {
+        "title": "Education",
+        "schools": [
+          {
+            "name": "Zuitt - Coding Bootcamp",
+            "degree": "Postgraduate Degree/Certificate Course, Web Development • 2021",
+            "grade": "Grade: 92",
+            "activitiesLabel": "",
+            "activities": [],
+            "bullets": []
+          },
+          {
+            "name": "PHINMA - University of Pangasinan",
+            "degree": "Bachelor of Science - BS, Computer Engineering • 2015 - 2020",
+            "grade": "Grade: 2.09",
+            "activitiesLabel": "Activities and societies:",
+            "activities": [
+              "ICpEP.SE-R1",
+              "ICpEP.SE-PHINMA UPang",
+              "UPACES",
+              "Life's Sound's Society"
+            ],
+            "bullets": [
+              "Researching software and computer hardware",
+              "Designing and testing computer hardware boards, memory devices and routers",
+              "Writing and testing software for mobile devices and computers",
+              "Designing, setting up and testing networks",
+              "Designing and testing robots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
