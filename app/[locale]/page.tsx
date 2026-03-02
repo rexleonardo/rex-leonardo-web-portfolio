@@ -120,8 +120,8 @@ export default async function Home({
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-2 h-2 rounded-full bg-zinc-400 dark:bg-zinc-600" />
-                      <span className="font-medium text-zinc-900 dark:text-zinc-100">{t("about.contact.mobile")}</span>
-                      <span>+63 926 645 1568</span>
+                      <span className="font-medium text-zinc-900 dark:text-zinc-100">{t("about.contact.linkedin")}</span>
+                      <a href="https://www.linkedin.com/in/rex-leonardo-2a521b16a/" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Rex Leonardo</a>
                     </li>
                   </ul>
                 </div>
