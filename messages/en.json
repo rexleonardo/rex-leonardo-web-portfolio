@@ -6,14 +6,14 @@
       "role": "Rex",
       "suffix": ".",
       "description": "I specialize in building responsive, high-performing web applications.",
-      "viewWork": "View Work"
+      "viewWork": "View Works"
     },
     "nav": {
       "name": "Rex Leonardo",
       "about": "About",
       "experience": "Experience",
       "skills": "Skills",
-      "projects": "Projects"
+      "projects": "Works"
     },
     "about": {
       "title": "About",
@@ -32,7 +32,7 @@
       "title": "Skills"
     },
     "projects": {
-      "title": "Personal Sample Projects"
+      "title": "Sample Works"
     },
     "aboutModals": {
       "buttons": {
