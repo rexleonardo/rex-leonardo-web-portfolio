@@ -16,21 +16,21 @@ export function AboutModals() {
       <div className="flex flex-wrap gap-4">
         <button
           onClick={() => setActiveModal("certifications")}
-          className="inline-flex items-center gap-2 rounded-xl bg-zinc-100 dark:bg-zinc-800/80 px-4 py-3 text-sm font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
+          className="inline-flex items-center gap-2 rounded-xl bg-zinc-100 dark:bg-zinc-800/80 px-4 py-3 text-sm font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
         >
           <Award className="w-5 h-5 text-zinc-500" />
           {t("buttons.certifications")}
         </button>
         <button
           onClick={() => setActiveModal("academic")}
-          className="inline-flex items-center gap-2 rounded-xl bg-zinc-100 dark:bg-zinc-800/80 px-4 py-3 text-sm font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
+          className="inline-flex items-center gap-2 rounded-xl bg-zinc-100 dark:bg-zinc-800/80 px-4 py-3 text-sm font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
         >
           <BookOpen className="w-5 h-5 text-zinc-500" />
           {t("buttons.academic")}
         </button>
         <button
           onClick={() => setActiveModal("education")}
-          className="inline-flex items-center gap-2 rounded-xl bg-zinc-100 dark:bg-zinc-800/80 px-4 py-3 text-sm font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
+          className="inline-flex items-center gap-2 rounded-xl bg-zinc-100 dark:bg-zinc-800/80 px-4 py-3 text-sm font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
         >
           <GraduationCap className="w-5 h-5 text-zinc-500" />
           {t("buttons.education")}
