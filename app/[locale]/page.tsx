@@ -73,13 +73,24 @@ export default async function Home({
                 </div>
               </FadeIn>
               <FadeIn delay={0.1}>
+                <div className="mb-8">
+                  <Image
+                    src="/profile.jpeg"
+                    alt="Profile photo"
+                    width={120}
+                    height={120}
+                    className="rounded-full aspect-square object-cover"
+                  />
+                </div>
+              </FadeIn>
+              <FadeIn delay={0.2}>
                 <div className="prose prose-zinc dark:prose-invert max-w-none mb-8">
                   <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
                     {t("about.description")}
                   </p>
                 </div>
               </FadeIn>
-              <FadeIn delay={0.2}>
+              <FadeIn delay={0.3}>
                 <div>
                   <h3 className="text-xl font-bold mb-4">{t("about.languages.title")}</h3>
                   <ul className="space-y-2 text-zinc-600 dark:text-zinc-400">
@@ -98,7 +109,7 @@ export default async function Home({
                   </ul>
                 </div>
               </FadeIn>
-              <FadeIn delay={0.3}>
+              <FadeIn delay={0.4}>
                 <AboutModals />
               </FadeIn>
             </div>
