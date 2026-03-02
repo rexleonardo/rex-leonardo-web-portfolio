@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { Navbar } from "@/components/Navbar";
 import { FadeIn } from "@/components/FadeIn";
 import { portfolioData } from "@/data/portfolio";
@@ -50,7 +51,7 @@ export default async function Home({
             <div className="flex gap-4">
               <a
                 href="#projects"
-                className="inline-flex items-center justify-center rounded-full bg-zinc-900 dark:bg-zinc-50 px-8 py-3 text-sm font-medium text-zinc-50 dark:text-zinc-900 transition-colors hover:bg-zinc-800 dark:hover:bg-zinc-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
+                className="inline-flex items-center justify-center rounded-full bg-zinc-900 dark:bg-zinc-50 px-8 py-3 text-sm font-medium text-zinc-50 dark:text-zinc-900 transition-colors cursor-pointer hover:bg-zinc-800 dark:hover:bg-zinc-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 dark:focus-visible:ring-zinc-300"
               >
                 {t("hero.viewWork")} <ArrowRight className="ml-2 h-4 w-4" />
               </a>
@@ -199,7 +200,7 @@ export default async function Home({
         </section>
 
         {/* Projects Section */}
-        {/* <section
+        <section
           id="projects"
           className="container mx-auto px-4 md:px-6 py-20 border-t border-zinc-200 dark:border-zinc-800"
         >
@@ -216,12 +217,22 @@ export default async function Home({
               <FadeIn key={project.id} delay={index * 0.1}>
                 <a
                   href={project.link}
-                  className="group block h-full p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 transition-all hover:border-zinc-400 dark:hover:border-zinc-600 hover:shadow-md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex flex-col h-full p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 transition-all cursor-pointer hover:border-zinc-400 dark:hover:border-zinc-600 hover:shadow-md"
                 >
+                  <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
+                    <Image
+                      src={project.image}
+                      alt={project.title[locale]}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                   <h3 className="text-xl font-bold mb-2 group-hover:text-zinc-600 dark:group-hover:text-zinc-300 transition-colors">
                     {project.title[locale]}
                   </h3>
-                  <p className="text-zinc-600 dark:text-zinc-400 mb-6">
+                  <p className="text-zinc-600 dark:text-zinc-400 mb-6 flex-1">
                     {project.description[locale]}
                   </p>
                   <div className="flex flex-wrap gap-2 mt-auto">
@@ -238,10 +249,10 @@ export default async function Home({
               </FadeIn>
             ))}
           </div>
-        </section> */}
+        </section>
       </main>
       <footer className="border-t border-zinc-200 dark:border-zinc-800 py-8 text-center text-sm text-zinc-500">
-        <p>© {new Date().getFullYear()} Portfolio. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Rex Leonardo. All rights reserved.</p>
       </footer>
     </div>
   );
