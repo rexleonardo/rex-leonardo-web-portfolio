@@ -23,6 +23,11 @@
         "english": "英語：ビジネスレベル",
         "japanese": "日本語：JLPT N3レベル",
         "filipino": "タガログ語：ネイティブ"
+      },
+      "contact": {
+        "title": "連絡先",
+        "email": "メール:",
+        "mobile": "電話番号:"
       }
     },
     "experience": {

@@ -91,7 +91,7 @@ export default async function Home({
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <div>
+                <div className="mb-8">
                   <h3 className="text-xl font-bold mb-4">{t("about.languages.title")}</h3>
                   <ul className="space-y-2 text-zinc-600 dark:text-zinc-400">
                     <li className="flex items-center gap-2">
@@ -110,6 +110,23 @@ export default async function Home({
                 </div>
               </FadeIn>
               <FadeIn delay={0.4}>
+                <div className="mb-8">
+                  <h3 className="text-xl font-bold mb-4">{t("about.contact.title")}</h3>
+                  <ul className="space-y-2 text-zinc-600 dark:text-zinc-400">
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-zinc-400 dark:bg-zinc-600" />
+                      <span className="font-medium text-zinc-900 dark:text-zinc-100">{t("about.contact.email")}</span>
+                      <a href="mailto:rexpleonardo@gmail.com" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">rexpleonardo@gmail.com</a>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-zinc-400 dark:bg-zinc-600" />
+                      <span className="font-medium text-zinc-900 dark:text-zinc-100">{t("about.contact.mobile")}</span>
+                      <span>+63 926 645 1568</span>
+                    </li>
+                  </ul>
+                </div>
+              </FadeIn>
+              <FadeIn delay={0.5}>
                 <AboutModals />
               </FadeIn>
             </div>

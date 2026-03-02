@@ -23,6 +23,11 @@
         "english": "English: Business level",
         "japanese": "Japanese: JLPT N3 level",
         "filipino": "Filipino: Native"
+      },
+      "contact": {
+        "title": "Contact Details",
+        "email": "Email:",
+        "mobile": "Mobile:"
       }
     },
     "experience": {
