@@ -26,12 +26,28 @@ export default async function Home({
   const { locale } = await params;
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col relative w-full overflow-x-hidden">
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 -mt-[88px]">
         {/* Hero Section */}
-        <section className="container mx-auto px-4 md:px-6 py-24 md:py-32 lg:py-40 flex flex-col items-center text-center">
-          <FadeIn delay={0.1}>
+        <section className="relative w-full min-h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-[88px]">
+          {/* Background Video */}
+          <div className="absolute inset-0 w-full h-full -z-10">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="object-cover w-full h-full pointer-events-none"
+            >
+              <source src="/video.mp4" type="video/mp4" />
+            </video>
+            <div className="absolute inset-0 bg-zinc-50/50 dark:bg-zinc-950/50" />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-zinc-50 dark:to-zinc-950" />
+          </div>
+
+          <div className="container mx-auto px-4 md:px-6 py-12 md:py-20 flex flex-col items-center text-center relative z-10">
+            <FadeIn delay={0.1}>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4">
               {t("hero.greeting")}{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-500 to-zinc-900 dark:from-zinc-400 dark:to-zinc-100">
@@ -57,6 +73,7 @@ export default async function Home({
               </a>
             </div>
           </FadeIn>
+          </div>
         </section>
 
         {/* About & Experience Section */}
