@@ -197,8 +197,30 @@ export const portfolioData = {
     {
       id: 1,
       title: {
+        en: "Age Calculator App",
+        ja: "年齢計算アプリ",
+      },
+      lastUpdated: {
+        en: "Work in progress: Apr 2026",
+        ja: "進行中: 2026年4月",
+      },
+      image: "/age-calculator-app.png",
+      description: {
+        en: "A straightforward and intuitive age calculator application that calculates age based on the provided date of birth.",
+        ja: "入力された生年月日から年齢を計算する、シンプルで直感的な年齢計算アプリケーションです。"
+      },
+      tech: ["HTML", "CSS", "JavaScript"],
+      link: "https://age-calculator-app-peach-five.vercel.app/",
+    },
+    {
+      id: 2,
+      title: {
         en: "Space Tourism Multi-page Website",
         ja: "宇宙旅行マルチページウェブサイト",
+      },
+      lastUpdated: {
+        en: "Last Updated: May 2022",
+        ja: "最終更新: 2022年5月",
       },
       image: "/space-tourism.png",
       description: {
@@ -209,10 +231,14 @@ export const portfolioData = {
       link: "https://space-tourism-react-app.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: {
         en: "Local Forum Website",
         ja: "ローカルフォーラムサイト",
+      },
+      lastUpdated: {
+        en: "Last Updated: May 2021",
+        ja: "最終更新: 2021年5月",
       },
       image: "/ph-forum.png",
       description: {
@@ -223,10 +249,14 @@ export const portfolioData = {
       link: "https://rexleonardo.gitlab.io/phforum/",
     },
     {
-      id: 3,
+      id: 4,
       title: {
         en: "Order Summary Component",
         ja: "注文概要コンポーネント",
+      },
+      lastUpdated: {
+        en: "Last Updated: Sep 2023",
+        ja: "最終更新: 2023年9月",
       },
       image: "/order-summary.png",
       description: {
@@ -235,6 +265,24 @@ export const portfolioData = {
       },
       tech: ["Next.js", "TypeScript", "SASS"],
       link: "https://order-summary-xi-seven.vercel.app/",
+    },
+    {
+      id: 5,
+      title: {
+        en: "Legacy Web Portfolio",
+        ja: "レガシーWebポートフォリオ",
+      },
+      lastUpdated: {
+        en: "Last Updated: May 2021",
+        ja: "最終更新: 2021年5月",
+      },
+      image: "/legacy-portfolio.png",
+      description: {
+        en: "A previous iteration of my personal portfolio webpage, built with foundational web technologies. It demonstrates early web development fundamentals, responsive design using CSS, and interactive DOM manipulation through vanilla JavaScript.",
+        ja: "基礎的なWeb技術を用いて構築された、以前の個人ポートフォリオサイト。CSSによるレスポンシブデザインや、バニラJavaScriptによるインタラクティブなDOM操作など、初期のWeb開発の基礎を示しています。"
+      },
+      tech: ["HTML", "CSS", "JavaScript"],
+      link: "https://rexleonardo1.gitlab.io/portfolio/",
     },
   ],
 };

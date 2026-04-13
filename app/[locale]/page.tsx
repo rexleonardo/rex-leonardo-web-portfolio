@@ -277,6 +277,11 @@ export default async function Home({
                   <h3 className="text-xl font-bold mb-2 group-hover:text-zinc-600 dark:group-hover:text-zinc-300 transition-colors">
                     {project.title[locale]}
                   </h3>
+                  <div className="mb-4">
+                    <span className="inline-flex items-center rounded-full bg-zinc-100 dark:bg-zinc-800 px-2.5 py-0.5 text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                      {project.lastUpdated[locale]}
+                    </span>
+                  </div>
                   <p className="text-zinc-600 dark:text-zinc-400 mb-6 flex-1">
                     {project.description[locale]}
                   </p>
