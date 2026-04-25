@@ -266,23 +266,23 @@ export const portfolioData = {
       tech: ["Next.js", "TypeScript", "SASS"],
       link: "https://order-summary-xi-seven.vercel.app/",
     },
-    {
-      id: 5,
-      title: {
-        en: "Legacy Web Portfolio",
-        ja: "レガシーWebポートフォリオ",
-      },
-      lastUpdated: {
-        en: "Last Updated: May 2021",
-        ja: "最終更新: 2021年5月",
-      },
-      image: "/legacy-portfolio.png",
-      description: {
-        en: "A previous iteration of my personal portfolio webpage, built with foundational web technologies. It demonstrates early web development fundamentals, responsive design using CSS, and interactive DOM manipulation through vanilla JavaScript.",
-        ja: "基礎的なWeb技術を用いて構築された、以前の個人ポートフォリオサイト。CSSによるレスポンシブデザインや、バニラJavaScriptによるインタラクティブなDOM操作など、初期のWeb開発の基礎を示しています。"
-      },
-      tech: ["HTML", "CSS", "JavaScript"],
-      link: "https://rexleonardo1.gitlab.io/portfolio/",
-    },
+    // {
+    //   id: 5,
+    //   title: {
+    //     en: "Legacy Web Portfolio",
+    //     ja: "レガシーWebポートフォリオ",
+    //   },
+    //   lastUpdated: {
+    //     en: "Last Updated: May 2021",
+    //     ja: "最終更新: 2021年5月",
+    //   },
+    //   image: "/legacy-portfolio.png",
+    //   description: {
+    //     en: "A previous iteration of my personal portfolio webpage, built with foundational web technologies. It demonstrates early web development fundamentals, responsive design using CSS, and interactive DOM manipulation through vanilla JavaScript.",
+    //     ja: "基礎的なWeb技術を用いて構築された、以前の個人ポートフォリオサイト。CSSによるレスポンシブデザインや、バニラJavaScriptによるインタラクティブなDOM操作など、初期のWeb開発の基礎を示しています。"
+    //   },
+    //   tech: ["HTML", "CSS", "JavaScript"],
+    //   link: "https://rexleonardo1.gitlab.io/portfolio/",
+    // },
   ],
 };
